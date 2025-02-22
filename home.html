@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thrive Conversational AI</title>
+  <style>
+    /* Global styles */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+    }
+    /* Header branding */
+    header {
+      background-color: #0052cc;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+    /* Main container for the widget */
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    /* Style for the widget element, if possible */
+    elevenlabs-convai {
+      display: block;
+      width: 100%;
+      min-height: 400px; /* Adjust height as needed */
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Thrive</h1>
+    <p>Empowering Conversations with AI</p>
+  </header>
+  <div class="container">
+    <!-- ElevenLabs Conversational AI Widget Embed -->
+    <elevenlabs-convai agent-id="bkrVjJ1QmebcYazjstxQ"></elevenlabs-convai><script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
+  </div>
+</body>
+</html>
